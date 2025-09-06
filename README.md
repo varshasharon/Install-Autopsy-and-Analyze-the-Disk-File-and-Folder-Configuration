@@ -14,15 +14,10 @@ To install **Autopsy** and use it to analyze the disk’s file and folder config
 - **Test Data**: Disk image file (`.dd`, `.img`, `.E01`)
 
 ## ARCHITECTURE DIAGRAM
-```mermaid
-flowchart TD
-    A[Disk Image / Physical Drive] --> B[Install Autopsy]
-    B --> C[Create New Case in Autopsy]
-    C --> D[Add Data Source: Disk Image]
-    D --> E["Autopsy Modules Run: File System, Metadata, Keywords"]
-    E --> F[File & Folder Structure View]
-    F --> G[Export / Recover Files]
-```
+<img width="639" height="753" alt="Screenshot 2025-09-06 132208" src="https://github.com/user-attachments/assets/d9adb5f0-56f9-4853-b9f7-900dbdde1713" />
+
+<img width="644" height="479" alt="image" src="https://github.com/user-attachments/assets/8a997fe7-b0d2-4f10-8672-d4749352b735" />
+
 ## DESIGN STEPS:
 ### Step 1:
 Download Autopsy from the official website and install it on your system.
